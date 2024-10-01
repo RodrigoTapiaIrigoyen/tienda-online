@@ -20,7 +20,7 @@ export type LogoProps = Record<string, unknown>
 
 export function Logo() {
   return (
-    <Link href="/" tabIndex={0} title="Spencer and Williams" className="group">
+    <Link href="/" tabIndex={0} title="BE BREVE" className="group">
       <svg
         fill="none"
         xmlns="http://www.w3.org/2000/svg"
