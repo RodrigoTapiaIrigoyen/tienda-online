@@ -8,7 +8,10 @@
     "prettier"
   ],
   "plugins": ["unused-imports"],
-  "globals": { "React": true, "JSX": true },
+  "globals": {
+    "React": true,
+    "JSX": true
+  },
   "rules": {
     "no-undef": "off",
     "@typescript-eslint/no-unused-vars": "off",
@@ -28,6 +31,8 @@
         "props": true,
         "ignorePropertyModificationsFor": ["accu"]
       }
-    ]
+    ],
+    // Deshabilitar la regla de orden de importaciones
+    "import/order": "off"
   }
 }
