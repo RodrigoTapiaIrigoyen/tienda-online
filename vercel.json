@@ -1,7 +1,7 @@
 {
     "build": {
       "env": {
-        "NODE_VERSION": "16.x"
+        "MY_ENV_VAR": "value"
       }
     }
   }
